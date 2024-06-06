@@ -30,13 +30,13 @@ namespace RazorPagesMovie.Pages.Movies
                 return NotFound();
             }
 
-            var movie =  await _context.Movie.FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _context.Movie.FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null)
             {
                 return NotFound();
             }
             Movie = movie;
-            return Page();
+            return Page(); // Renders the corresponding .cshtml Razor Page. Uses Movie in previous line.
         }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
