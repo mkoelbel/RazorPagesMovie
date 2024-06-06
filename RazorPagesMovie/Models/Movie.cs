@@ -18,7 +18,7 @@ public class Movie
 
     [Range(1, 100)]
     [DataType(DataType.Currency)]
-    [Column(TypeName = "decimal(18, 2)")]
+    [Column(TypeName = "decimal(18, 2)")] // So EF Core can correctly map Price to currency in the database (?)
     // decimals, ints, and floats are inherently required, so don't need [Required]
     public decimal Price { get; set; }
 
