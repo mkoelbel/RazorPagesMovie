@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Humanizer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,9 +14,9 @@ namespace RazorPagesMovie.Pages.Movies
 {
     public class IndexModel : PageModel
     {
-        private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
+        private readonly RazorPagesMovieContext _context;
 
-        public IndexModel(RazorPagesMovie.Data.RazorPagesMovieContext context)
+        public IndexModel(RazorPagesMovieContext context)
         {
             _context = context;
         }
@@ -30,6 +31,11 @@ namespace RazorPagesMovie.Pages.Movies
         [BindProperty(SupportsGet = true)]
         public string? MovieGenre { get; set; }
 
+        // Filtering happens in OnGet() rather than in OnPost(), because OnGet() needs to be able to filter based on
+        // user inputs, since users may filter by directly editing the URL with query strings. (So when page is reloaded, 
+        // OnGet() must be able to handle those query strings.) 
+        // OnPost() method would be identical to OnGet(), so we omit it. When OnPost() would normally be called (when submit
+        // button is pressed on Index page), we look for OnPost() here, don't find one, so default to OnGet().
         public async Task OnGetAsync()
         {
             IQueryable<string> genreQuery = from m in _context.Movie // LINQ query
