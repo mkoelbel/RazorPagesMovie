@@ -24,29 +24,29 @@ namespace RazorPagesMovie.Pages.Movies
         public IList<Movie> Movie { get;set; } = default!;
 
         [BindProperty(SupportsGet = true)]
-        public string? SearchString { get; set; }
+        public string? TitleSearchString { get; set; }
 
-        public SelectList? Ratings { get; set; }
-
-        [BindProperty(SupportsGet = true)]
-        public string? MovieRating { get; set; }
-
-        public SelectList? Genres { get; set; }
+        public SelectList? AllRatings { get; set; }
 
         [BindProperty(SupportsGet = true)]
-        public string? MovieGenre { get; set; }
+        public string? SelectedRating { get; set; }
 
-        public List<int>? Years { get; set; }
-
-        [BindProperty(SupportsGet = true)]
-        public int? MovieMinYear { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public int? MovieMaxYear { get; set; }
-
-        public SelectList? Countries { get; set; }
+        public SelectList? AllGenres { get; set; }
 
         [BindProperty(SupportsGet = true)]
-        public string? MovieCountry { get; set; }
+        public string? SelectedGenre { get; set; }
+
+        public List<int>? AllYears { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public int? SelectedMinYear { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public int? SelectedMaxYear { get; set; }
+
+        public SelectList? AllCountries { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string? SelectedCountry { get; set; }
 
         // Filtering happens in OnGet() rather than in OnPost(), because OnGet() needs to be able to filter based on
         // user inputs, since users may filter by directly editing the URL with query strings. (So when page is reloaded, 
@@ -58,54 +58,53 @@ namespace RazorPagesMovie.Pages.Movies
             IQueryable<string> ratingQuery = from m in _context.Movie // LINQ query
                                              orderby m.Rating
                                              select m.Rating;
-            Ratings = new SelectList(await ratingQuery.Distinct().ToListAsync());
+            AllRatings = new SelectList(await ratingQuery.Distinct().ToListAsync());
 
             IQueryable<string> genreQuery = from m in _context.Movie
                                             orderby m.Genre
                                             select m.Genre;
-            Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
+            AllGenres = new SelectList(await genreQuery.Distinct().ToListAsync());
 
             IQueryable<int> yearsQuery = from m in _context.Movie
                                          orderby m.Year
                                          select m.Year;
-            Years = new List<int>(await yearsQuery.Distinct().ToListAsync());
+            AllYears = new List<int>(await yearsQuery.Distinct().ToListAsync());
 
             IQueryable<string> countryQuery = from m in _context.Movie
                                             orderby m.Country
                                             select m.Country;
-            Countries = new SelectList(await countryQuery.Distinct().ToListAsync());
+            AllCountries = new SelectList(await countryQuery.Distinct().ToListAsync());
 
             var movies = from m in _context.Movie // LINQ query. Defined here, but not yet executed.
                          select m;
-            if (!string.IsNullOrEmpty(SearchString))
+            if (!string.IsNullOrEmpty(TitleSearchString))
             {
-                movies = movies.Where(s => s.Title.Contains(SearchString)); // LINQ query still not yet executed
+                movies = movies.Where(s => s.Title.Contains(TitleSearchString)); // LINQ query still not yet executed
             }
 
-            if (!string.IsNullOrEmpty(MovieRating))
+            if (!string.IsNullOrEmpty(SelectedRating))
             {
-                movies = movies.Where(x => x.Rating == MovieRating);
+                movies = movies.Where(x => x.Rating == SelectedRating);
             }
 
-            if (!string.IsNullOrEmpty(MovieGenre))
+            if (!string.IsNullOrEmpty(SelectedGenre))
             {
-                movies = movies.Where(x => x.Genre == MovieGenre);
+                movies = movies.Where(x => x.Genre == SelectedGenre);
             }
 
-            if (MovieMinYear is not null & MovieMinYear != 0)
+            if (SelectedMinYear is not null & SelectedMinYear != 0)
             {
-                Console.WriteLine(MovieMinYear);
-                movies = movies.Where(x => x.Year >= MovieMinYear);
+                movies = movies.Where(x => x.Year >= SelectedMinYear);
             }
 
-            if (MovieMaxYear is not null & MovieMaxYear != 0)
+            if (SelectedMaxYear is not null & SelectedMaxYear != 0)
             {
-                movies = movies.Where(x => x.Year <= MovieMaxYear);
+                movies = movies.Where(x => x.Year <= SelectedMaxYear);
             }
 
-            if (!string.IsNullOrEmpty(MovieCountry))
+            if (!string.IsNullOrEmpty(SelectedCountry))
             {
-                movies = movies.Where(x => x.Country == MovieCountry);
+                movies = movies.Where(x => x.Country == SelectedCountry);
             }
 
             Movie = await movies.ToListAsync(); // Above LINQ is executed here, since we run ToListAsync() on it
