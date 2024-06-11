@@ -1,0 +1,10 @@
+﻿TODO
+
+- Make prettier (colors, fonts, borders, etc)
+- Graphs
+    - Use caching
+    - Try to pull AllGenres list from Movies/Index page
+- Filters
+    - Allow filtering on multiple genres, countries, etc
+- Razor Pages Backend
+    - Can we do the Linq queries differently? Do 'distinct' in the SQL code?
