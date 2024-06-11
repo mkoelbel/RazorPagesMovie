@@ -3,11 +3,8 @@ using RazorPagesMovie.Data;
 namespace RazorPagesMovie.Models;
 using RazorPagesMovie.Mappings;
 using System.Globalization;
-
 using CsvHelper.Configuration;
 using System.IO;
-
-
 
 public static class SeedData
 {
