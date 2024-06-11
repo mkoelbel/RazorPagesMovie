@@ -25,8 +25,7 @@ public static class SeedData
             // Look for any movies.
             if (context.Movie.Any())
             {
-                //return;   // DB has been seeded
-                context.Movie.RemoveRange(context.Movie);
+                return;   // DB has been seeded
             }
 
             string SeedCSVFilePath = "Data/movies.csv"; // TODO Make this a global variable
