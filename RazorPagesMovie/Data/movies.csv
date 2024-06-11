@@ -1,0 +1,220 @@
+title,rating,genre,year,score,votes,director,star,country,budget,gross,company,runtime
+The Shining,R,Drama,1980,8.4,927000,Stanley Kubrick,Jack Nicholson,United Kingdom,19000000,46998772,Warner Bros.,146
+Star Wars: Episode V - The Empire Strikes Back,PG,Action,1980,8.7,1200000,Irvin Kershner,Mark Hamill,United States,18000000,538375067,Lucasfilm,124
+Indiana Jones and the Raiders of the Lost Ark,PG,Action,1981,8.4,905000,Steven Spielberg,Harrison Ford,United States,18000000,389925971,Paramount Pictures,115
+Blade Runner,R,Action,1982,8.1,710000,Ridley Scott,Harrison Ford,United States,28000000,41676878,The Ladd Company,117
+Scarface,R,Crime,1983,8.3,766000,Brian De Palma,Al Pacino,United States,25000000,65884703,Universal Pictures,170
+Star Wars: Episode VI - Return of the Jedi,PG,Action,1983,8.3,973000,Richard Marquand,Mark Hamill,United States,32500000,475106177,Lucasfilm,131
+The Terminator,R,Action,1984,8,812000,James Cameron,Arnold Schwarzenegger,United Kingdom,6400000,78371200,Cinema '84,107
+Back to the Future,PG,Adventure,1985,8.5,1100000,Robert Zemeckis,Michael J. Fox,United States,19000000,381906762,Universal Pictures,116
+Aliens,R,Action,1986,8.3,668000,James Cameron,Sigourney Weaver,United Kingdom,18500000,131060248,Twentieth Century Fox,137
+Full Metal Jacket,R,Drama,1987,8.3,691000,Stanley Kubrick,Matthew Modine,United Kingdom,30000000,46357676,Natant,116
+Die Hard,R,Action,1988,8.2,810000,John McTiernan,Bruce Willis,United States,28000000,141603197,Twentieth Century Fox,132
+Indiana Jones and the Last Crusade,PG-13,Action,1989,8.2,707000,Steven Spielberg,Harrison Ford,United States,48000000,474171806,Paramount Pictures,127
+Goodfellas,R,Biography,1990,8.7,1100000,Martin Scorsese,Robert De Niro,United States,25000000,46963277,Warner Bros.,146
+Home Alone,PG,Comedy,1990,7.6,501000,Chris Columbus,Macaulay Culkin,United States,18000000,476684675,Hughes Entertainment,103
+Terminator 2: Judgment Day,R,Action,1991,8.5,1000000,James Cameron,Arnold Schwarzenegger,United States,102000000,520881154,Carolco Pictures,137
+The Silence of the Lambs,R,Crime,1991,8.6,1300000,Jonathan Demme,Jodie Foster,United States,19000000,272742922,Strong Heart/Demme Production,118
+Reservoir Dogs,R,Crime,1992,8.3,943000,Quentin Tarantino,Harvey Keitel,United States,1200000,2913644,Live Entertainment,99
+Jurassic Park,PG-13,Action,1993,8.1,894000,Steven Spielberg,Sam Neill,United States,63000000,1033928303,Universal Pictures,127
+Schindler's List,R,Biography,1993,8.9,1200000,Steven Spielberg,Liam Neeson,United States,22000000,322161245,Universal Pictures,195
+Groundhog Day,PG,Comedy,1993,8,589000,Harold Ramis,Bill Murray,United States,14600000,71074049,Columbia Pictures,101
+The Shawshank Redemption,R,Drama,1994,9.3,2400000,Frank Darabont,Tim Robbins,United States,25000000,28817291,Castle Rock Entertainment,142
+Pulp Fiction,R,Crime,1994,8.9,1900000,Quentin Tarantino,John Travolta,United States,8000000,213928762,Miramax,154
+Forrest Gump,PG-13,Drama,1994,8.8,1900000,Robert Zemeckis,Tom Hanks,United States,55000000,678226133,Paramount Pictures,142
+Léon: The Professional,R,Action,1994,8.5,1100000,Luc Besson,Jean Reno,France,40000000,19552639,Gaumont,110
+The Lion King,G,Animation,1994,8.5,970000,Roger Allers,Matthew Broderick,United States,45000000,1083720877,Walt Disney Pictures,88
+Heat,R,Crime,1995,8.2,596000,Michael Mann,Al Pacino,United States,60000000,187436818,Warner Bros.,170
+Se7en,R,Crime,1995,8.6,1500000,David Fincher,Morgan Freeman,United States,33000000,327333559,Cecchi Gori Pictures,127
+Braveheart,R,Biography,1995,8.3,978000,Mel Gibson,Mel Gibson,United States,72000000,213216216,Icon Entertainment International,178
+The Usual Suspects,R,Crime,1995,8.5,1000000,Bryan Singer,Kevin Spacey,United States,6000000,23341568,PolyGram Filmed Entertainment,106
+Toy Story,G,Animation,1995,8.3,913000,John Lasseter,Tom Hanks,United States,30000000,394436586,Walt Disney Pictures,81
+12 Monkeys,R,Mystery,1995,8,589000,Terry Gilliam,Bruce Willis,United States,29000001,168839459,Universal Pictures,129
+Independence Day,PG-13,Action,1996,7,543000,Roland Emmerich,Will Smith,United States,75000000,817400891,Twentieth Century Fox,145
+Fargo,R,Crime,1996,8.1,634000,Joel Coen,William H. Macy,United States,7000000,60611975,PolyGram Filmed Entertainment,98
+Trainspotting,R,Drama,1996,8.1,647000,Danny Boyle,Ewan McGregor,United Kingdom,45000000,16607872,Channel Four Films,93
+Titanic,PG-13,Drama,1997,7.8,1100000,James Cameron,Leonardo DiCaprio,United States,200000000,2201647264,Twentieth Century Fox,194
+Good Will Hunting,R,Drama,1997,8.3,887000,Gus Van Sant,Robin Williams,United States,10000000,225933435,Miramax,126
+L.A. Confidential,R,Crime,1997,8.2,544000,Curtis Hanson,Kevin Spacey,United States,35000000,126216940,New Regency Productions,138
+Life Is Beautiful,PG-13,Comedy,1997,8.6,642000,Roberto Benigni,Roberto Benigni,Italy,20000000,230098753,Melampo Cinematografica,116
+Men in Black,PG-13,Action,1997,7.3,529000,Barry Sonnenfeld,Tommy Lee Jones,United States,90000000,589390539,Columbia Pictures,98
+The Big Lebowski,R,Comedy,1998,8.1,754000,Joel Coen,Jeff Bridges,United States,15000000,46748721,Polygram Filmed Entertainment,117
+Saving Private Ryan,R,Drama,1998,8.6,1300000,Steven Spielberg,Tom Hanks,United States,70000000,482349603,Dreamworks Pictures,169
+American History X,R,Drama,1998,8.5,1100000,Tony Kaye,Edward Norton,United States,20000000,23875127,New Line Cinema,119
+"Lock, Stock and Two Smoking Barrels",R,Action,1998,8.2,547000,Guy Ritchie,Jason Flemyng,United Kingdom,45000000,3753929,Summit Entertainment,107
+The Truman Show,PG,Comedy,1998,8.1,972000,Peter Weir,Jim Carrey,United States,60000000,264118201,Paramount Pictures,103
+The Matrix,R,Action,1999,8.7,1700000,Lana Wachowski,Keanu Reeves,United States,63000000,466364845,Warner Bros.,136
+Fight Club,R,Drama,1999,8.8,1900000,David Fincher,Brad Pitt,Germany,63000000,101209702,Fox 2000 Pictures,139
+The Green Mile,R,Crime,1999,8.6,1200000,Frank Darabont,Tom Hanks,United States,60000000,286801374,Castle Rock Entertainment,189
+American Beauty,R,Drama,1999,8.3,1100000,Sam Mendes,Kevin Spacey,United States,15000000,356296601,Dreamworks Pictures,122
+Star Wars: Episode I - The Phantom Menace,PG,Action,1999,6.5,748000,George Lucas,Ewan McGregor,United States,115000000,1027082707,Lucasfilm,136
+The Sixth Sense,PG-13,Drama,1999,8.1,930000,M. Night Shyamalan,Bruce Willis,United States,40000000,672806292,Hollywood Pictures,107
+Toy Story 2,G,Animation,1999,7.9,540000,John Lasseter,Tom Hanks,United States,90000000,497375381,Pixar Animation Studios,92
+American Psycho,R,Comedy,2000,7.6,514000,Mary Harron,Christian Bale,United States,7000000,34266564,Am Psycho Productions,101
+Gladiator,R,Action,2000,8.5,1400000,Ridley Scott,Russell Crowe,United States,103000000,465380802,Dreamworks Pictures,155
+Snatch,R,Comedy,2000,8.3,800000,Guy Ritchie,Jason Statham,United Kingdom,115000000,83557872,Columbia Pictures,102
+Requiem for a Dream,Unrtd,Drama,2000,8.3,786000,Darren Aronofsky,Ellen Burstyn,United States,4500000,7390108,Artisan Entertainment,102
+Memento,R,Mystery,2000,8.4,1200000,Christopher Nolan,Guy Pearce,United States,9000000,40047078,Newmarket Capital Group,113
+Cast Away,PG-13,Adventure,2000,7.8,542000,Robert Zemeckis,Tom Hanks,United States,90000000,429632142,Twentieth Century Fox,143
+X-Men,PG-13,Action,2000,7.4,582000,Bryan Singer,Patrick Stewart,United States,75000000,296339528,Twentieth Century Fox,104
+Harry Potter and the Sorcerer's Stone,PG,Adventure,2001,7.6,685000,Chris Columbus,Daniel Radcliffe,United Kingdom,125000000,1006968171,Warner Bros.,152
+The Lord of the Rings: The Fellowship of the Ring,PG-13,Action,2001,8.8,1700000,Peter Jackson,Elijah Wood,New Zealand,93000000,897690072,New Line Cinema,178
+"Monsters, Inc.",G,Animation,2001,8.1,838000,Pete Docter,Billy Crystal,United States,115000000,579707738,Pixar Animation Studios,92
+Spirited Away,PG,Animation,2001,8.6,679000,Hayao Miyazaki,Daveigh Chase,Japan,19000000,355475245,Tokuma Shoten,125
+Donnie Darko,R,Drama,2001,8,755000,Richard Kelly,Jake Gyllenhaal,United States,6000000,6981586,Pandora Cinema,113
+Ocean's Eleven,PG-13,Crime,2001,7.7,531000,Steven Soderbergh,George Clooney,United States,85000000,450717150,Warner Bros.,116
+Shrek,PG,Animation,2001,7.9,630000,Andrew Adamson,Mike Myers,United States,60000000,487853320,DreamWorks Animation,90
+A Beautiful Mind,PG-13,Biography,2001,8.2,871000,Ron Howard,Russell Crowe,United States,58000000,316791257,Universal Pictures,135
+Amélie,R,Comedy,2001,8.3,717000,Jean-Pierre Jeunet,Audrey Tautou,France,10000000,173997108,Claudie Ossard Productions,122
+Spider-Man,PG-13,Action,2002,7.3,706000,Sam Raimi,Tobey Maguire,United States,139000000,825025036,Columbia Pictures,121
+The Pianist,R,Biography,2002,8.5,756000,Roman Polanski,Adrien Brody,United Kingdom,35000000,120072577,R.P. Productions,150
+Harry Potter and the Chamber of Secrets,PG,Adventure,2002,7.4,572000,Chris Columbus,Daniel Radcliffe,United Kingdom,100000000,879602366,Warner Bros.,161
+The Lord of the Rings: The Two Towers,PG-13,Action,2002,8.7,1500000,Peter Jackson,Elijah Wood,New Zealand,94000000,947495095,New Line Cinema,179
+Catch Me If You Can,PG-13,Biography,2002,8.1,866000,Steven Spielberg,Leonardo DiCaprio,United States,52000000,352114312,Dreamworks Pictures,141
+City of God,R,Crime,2002,8.6,714000,Fernando Meirelles,Alexandre Rodrigues,Brazil,19000000,30680793,O2 Filmes,130
+The Bourne Identity,PG-13,Action,2002,7.9,519000,Doug Liman,Franka Potente,United States,60000000,214034224,Universal Pictures,119
+Star Wars: Episode II - Attack of the Clones,PG,Action,2002,6.5,658000,George Lucas,Hayden Christensen,United States,115000000,653779970,Lucasfilm,142
+Minority Report,PG-13,Action,2002,7.6,519000,Steven Spielberg,Tom Cruise,United States,102000000,358372926,Twentieth Century Fox,145
+Kill Bill: Vol. 1,R,Action,2003,8.1,1000000,Quentin Tarantino,Uma Thurman,United States,30000000,180906076,Miramax,111
+Pirates of the Caribbean: the Curse of the Black Pearl,PG-13,Action,2003,8,1000000,Gore Verbinski,Johnny Depp,United States,140000000,654264015,Walt Disney Pictures,143
+The Lord of the Rings: The Return of the King,PG-13,Action,2003,8.9,1700000,Peter Jackson,Elijah Wood,New Zealand,94000000,1146030912,New Line Cinema,201
+Oldboy,R,Action,2003,8.4,532000,Park Chan-Wook,Choi Min-sik,South Korea,3000000,15189934,Show East,120
+The Matrix Reloaded,R,Action,2003,7.2,529000,Lana Wachowski,Keanu Reeves,United States,150000000,741847937,Warner Bros.,138
+Finding Nemo,G,Animation,2003,8.1,972000,Andrew Stanton,Albert Brooks,United States,94000000,940352645,Pixar Animation Studios,100
+X2: X-Men United,PG-13,Action,2003,7.4,521000,Bryan Singer,Patrick Stewart,United States,110000000,407711549,Twentieth Century Fox,134
+Harry Potter and the Prisoner of Azkaban,PG,Adventure,2004,7.9,570000,Alfonso Cuarón,Daniel Radcliffe,United Kingdom,130000000,797361618,Warner Bros.,142
+Troy,R,Drama,2004,7.2,500000,Wolfgang Petersen,Brad Pitt,United States,175000000,497409852,Warner Bros.,163
+Eternal Sunshine of the Spotless Mind,R,Drama,2004,8.3,935000,Michel Gondry,Jim Carrey,United States,20000000,74036715,Focus Features,108
+Kill Bill: Vol. 2,R,Action,2004,8,702000,Quentin Tarantino,Uma Thurman,United States,30000000,154118820,Miramax,137
+The Notebook,PG-13,Drama,2004,7.8,534000,Nick Cassavetes,Gena Rowlands,United States,29000000,117815157,New Line Cinema,123
+The Incredibles,PG,Animation,2004,8,673000,Brad Bird,Craig T. Nelson,United States,92000000,631607053,Pixar Animation Studios,115
+Spider-Man 2,PG-13,Action,2004,7.3,559000,Sam Raimi,Tobey Maguire,United States,200000000,788976453,Columbia Pictures,127
+"I, Robot",PG-13,Action,2004,7.1,509000,Alex Proyas,Will Smith,United States,120000000,353133898,Twentieth Century Fox,115
+Million Dollar Baby,PG-13,Drama,2004,8.1,650000,Clint Eastwood,Hilary Swank,United States,30000000,216763646,Warner Bros.,132
+Shaun of the Dead,R,Comedy,2004,7.9,525000,Edgar Wright,Simon Pegg,United Kingdom,115000000,30097092,Universal Pictures,99
+Harry Potter and the Goblet of Fire,PG-13,Adventure,2005,7.7,566000,Mike Newell,Daniel Radcliffe,United Kingdom,150000000,896678241,Warner Bros.,157
+Batman Begins,PG-13,Action,2005,8.2,1300000,Christopher Nolan,Christian Bale,United Kingdom,150000000,373661946,Warner Bros.,140
+Sin City,R,Crime,2005,8,745000,Frank Miller,Mickey Rourke,United States,40000000,158733820,Dimension Films,124
+V for Vendetta,R,Action,2005,8.1,1100000,James McTeigue,Hugo Weaving,United States,54000000,132511035,Warner Bros.,132
+Star Wars: Episode III - Revenge of the Sith,PG-13,Action,2005,7.5,729000,George Lucas,Hayden Christensen,United States,113000000,868390560,Lucasfilm,140
+The Departed,R,Crime,2006,8.5,1200000,Martin Scorsese,Leonardo DiCaprio,United States,90000000,291465373,Warner Bros.,151
+The Prestige,PG-13,Drama,2006,8.5,1200000,Christopher Nolan,Christian Bale,United Kingdom,40000000,109676311,Touchstone Pictures,130
+300,R,Action,2006,7.6,750000,Zack Snyder,Gerard Butler,United States,65000000,456068181,Warner Bros.,117
+Casino Royale,PG-13,Action,2006,8,594000,Martin Campbell,Daniel Craig,United Kingdom,150000000,616502912,Columbia Pictures,144
+Pan's Labyrinth,R,Drama,2006,8.2,631000,Guillermo del Toro,Ivana Baquero,Spain,19000000,83850267,Estudios Picasso,118
+Pirates of the Caribbean: Dead Man's Chest,PG-13,Action,2006,7.3,668000,Gore Verbinski,Johnny Depp,United States,225000000,1066179747,Walt Disney Pictures,151
+Blood Diamond,R,Adventure,2006,8,511000,Edward Zwick,Leonardo DiCaprio,United States,100000000,171720398,Warner Bros.,143
+There Will Be Blood,R,Drama,2007,8.2,535000,Paul Thomas Anderson,Daniel Day-Lewis,United States,25000000,76182388,Paramount Vantage,158
+No Country for Old Men,R,Crime,2007,8.1,886000,Ethan Coen,Tommy Lee Jones,United States,25000000,171627166,Paramount Vantage,122
+Superbad,R,Comedy,2007,7.6,535000,Greg Mottola,Michael Cera,United States,20000000,170812526,Columbia Pictures,113
+Transformers,PG-13,Action,2007,7,607000,Michael Bay,Shia LaBeouf,United States,150000000,709709780,Dreamworks Pictures,144
+Harry Potter and the Order of the Phoenix,PG-13,Action,2007,7.5,527000,David Yates,Daniel Radcliffe,United Kingdom,150000000,942172396,Warner Bros.,138
+Into the Wild,R,Adventure,2007,8.1,588000,Sean Penn,Emile Hirsch,United States,15000000,56675895,Paramount Vantage,148
+Ratatouille,G,Animation,2007,8,660000,Brad Bird,Brad Garrett,United States,150000000,623726085,Walt Disney Pictures,111
+Pirates of the Caribbean: at World's End,PG-13,Action,2007,7.1,608000,Gore Verbinski,Johnny Depp,United States,300000000,960996492,Walt Disney Pictures,169
+I Am Legend,PG-13,Action,2007,7.2,704000,Francis Lawrence,Will Smith,United States,150000000,585410052,Warner Bros.,101
+The Bourne Ultimatum,PG-13,Action,2007,8,612000,Paul Greengrass,Matt Damon,United States,110000000,444100035,Universal Pictures,115
+The Dark Knight,PG-13,Action,2008,9,2400000,Christopher Nolan,Christian Bale,United States,185000000,1005973645,Warner Bros.,152
+Iron Man,PG-13,Action,2008,7.9,969000,Jon Favreau,Robert Downey Jr.,United States,140000000,585796247,Paramount Pictures,126
+Taken,PG-13,Action,2008,7.8,575000,Pierre Morel,Liam Neeson,France,25000000,226837760,EuropaCorp,90
+The Curious Case of Benjamin Button,PG-13,Drama,2008,7.8,605000,David Fincher,Brad Pitt,United States,150000000,335802786,Warner Bros.,166
+WALL·E,G,Animation,2008,8.4,1000000,Andrew Stanton,Ben Burtt,United States,180000000,521311890,FortyFour Studios,98
+Slumdog Millionaire,R,Drama,2008,8,812000,Danny Boyle,Dev Patel,United Kingdom,15000000,378410542,Celador Films,120
+Gran Torino,R,Drama,2008,8.1,734000,Clint Eastwood,Clint Eastwood,Germany,33000000,269958228,Matten Productions,116
+Inglourious Basterds,R,Adventure,2009,8.3,1300000,Quentin Tarantino,Brad Pitt,United States,70000000,321457747,Universal Pictures,153
+Star Trek,PG-13,Action,2009,7.9,585000,J.J. Abrams,Chris Pine,United States,150000000,385680446,Paramount Pictures,127
+Avatar,PG-13,Action,2009,7.8,1100000,James Cameron,Sam Worthington,United States,237000000,2847246203,Twentieth Century Fox,162
+Watchmen,R,Action,2009,7.6,520000,Zack Snyder,Jackie Earle Haley,United States,130000000,185382813,Warner Bros.,162
+The Hangover,R,Comedy,2009,7.7,733000,Todd Phillips,Zach Galifianakis,United States,35000000,469310836,Warner Bros.,100
+Zombieland,R,Adventure,2009,7.6,534000,Ruben Fleischer,Jesse Eisenberg,United States,23600000,102392080,Columbia Pictures,88
+Sherlock Holmes,PG-13,Action,2009,7.6,596000,Guy Ritchie,Robert Downey Jr.,United States,90000000,524028679,Warner Bros.,128
+District 9,R,Action,2009,7.9,648000,Neill Blomkamp,Sharlto Copley,South Africa,30000000,210888950,TriStar Pictures,112
+Up,PG,Animation,2009,8.2,962000,Pete Docter,Edward Asner,United States,175000000,735099102,Pixar Animation Studios,96
+Inception,PG-13,Action,2010,8.8,2100000,Christopher Nolan,Leonardo DiCaprio,United States,160000000,836836967,Warner Bros.,148
+Iron Man 2,PG-13,Action,2010,7,746000,Jon Favreau,Robert Downey Jr.,United States,200000000,623933331,Paramount Pictures,124
+Shutter Island,R,Mystery,2010,8.2,1200000,Martin Scorsese,Leonardo DiCaprio,United States,80000000,294805697,Paramount Pictures,138
+Kick-Ass,R,Action,2010,7.6,535000,Matthew Vaughn,Aaron Taylor-Johnson,United Kingdom,30000000,96188903,Marv Films,117
+Black Swan,R,Drama,2010,8,716000,Darren Aronofsky,Natalie Portman,United States,13000000,329398046,Fox Searchlight Pictures,108
+The Social Network,PG-13,Biography,2010,7.7,645000,David Fincher,Jesse Eisenberg,United States,40000000,224920375,Columbia Pictures,120
+How to Train Your Dragon,PG,Animation,2010,8.1,685000,Dean DeBlois,Jay Baruchel,United States,165000000,494879471,DreamWorks Animation,98
+Despicable Me,PG,Animation,2010,7.6,512000,Pierre Coffin,Steve Carell,United States,69000000,543113985,Universal Pictures,95
+Toy Story 3,G,Animation,2010,8.2,776000,Lee Unkrich,Tom Hanks,United States,200000000,1066970811,Walt Disney Pictures,103
+The King's Speech,R,Biography,2010,8,651000,Tom Hooper,Colin Firth,United Kingdom,15000000,427374317,The Weinstein Company,118
+Captain America: the First Avenger,PG-13,Action,2011,6.9,769000,Joe Johnston,Chris Evans,United States,140000000,370569774,Paramount Pictures,124
+Thor,PG-13,Action,2011,7,772000,Kenneth Branagh,Chris Hemsworth,United States,150000000,449326618,Paramount Pictures,115
+Harry Potter and the Deathly Hallows: Part 2,PG-13,Adventure,2011,8.1,790000,David Yates,Daniel Radcliffe,United Kingdom,125000000,1342321665,Warner Bros.,130
+The Intouchables,R,Biography,2011,8.5,785000,Olivier Nakache,François Cluzet,France,25000000,426588510,Quad Productions,112
+Drive,R,Crime,2011,7.8,587000,Nicolas Winding Refn,Ryan Gosling,United States,15000000,77187281,FilmDistrict,100
+X-Men: First Class,PG-13,Action,2011,7.7,657000,Matthew Vaughn,James McAvoy,United States,160000000,352616690,Twentieth Century Fox,131
+Limitless,PG-13,Sci-Fi,2011,7.4,538000,Neil Burger,Bradley Cooper,United States,27000000,161849455,Relativity Media,105
+Rise of the Planet of the Apes,PG-13,Action,2011,7.5,504000,Rupert Wyatt,James Franco,United States,93000000,481800873,Twentieth Century Fox,105
+The Avengers,PG-13,Action,2012,8,1300000,Joss Whedon,Robert Downey Jr.,United States,220000000,1518815515,Marvel Studios,143
+Django Unchained,R,Drama,2012,8.4,1400000,Quentin Tarantino,Jamie Foxx,United States,100000000,426074373,The Weinstein Company,165
+The Hobbit: An Unexpected Journey,PG-13,Adventure,2012,7.8,773000,Peter Jackson,Martin Freeman,New Zealand,180000000,1017003568,Metro-Goldwyn-Mayer (MGM),169
+The Hunger Games,PG-13,Action,2012,7.2,862000,Gary Ross,Jennifer Lawrence,United States,78000000,694394724,Lionsgate,142
+The Dark Knight Rises,PG-13,Action,2012,8.4,1600000,Christopher Nolan,Christian Bale,United Kingdom,250000000,1081142612,Warner Bros.,164
+Prometheus,R,Adventure,2012,7,578000,Ridley Scott,Noomi Rapace,United States,130000000,403354469,Twentieth Century Fox,124
+Argo,R,Biography,2012,7.7,585000,Ben Affleck,Ben Affleck,United States,44500000,232325503,Warner Bros.,120
+Skyfall,PG-13,Action,2012,7.7,642000,Sam Mendes,Daniel Craig,United Kingdom,200000000,1108569499,Metro-Goldwyn-Mayer (MGM),143
+The Amazing Spider-Man,PG-13,Action,2012,6.9,571000,Marc Webb,Andrew Garfield,United States,230000000,757930663,Columbia Pictures,136
+Silver Linings Playbook,R,Comedy,2012,7.7,675000,David O. Russell,Bradley Cooper,United States,21000000,236412453,The Weinstein Company,122
+Looper,R,Action,2012,7.4,545000,Rian Johnson,Joseph Gordon-Levitt,United States,30000000,176506819,TriStar Pictures,113
+21 Jump Street,R,Action,2012,7.2,521000,Phil Lord,Jonah Hill,United States,42000000,201585328,Columbia Pictures,109
+Ted,R,Comedy,2012,6.9,580000,Seth MacFarlane,Mark Wahlberg,United States,50000000,549368315,Universal Pictures,106
+Life of Pi,PG,Adventure,2012,7.9,594000,Ang Lee,Suraj Sharma,United States,120000000,609016565,Fox 2000 Pictures,127
+The Wolf of Wall Street,R,Biography,2013,8.2,1200000,Martin Scorsese,Leonardo DiCaprio,United States,100000000,392000694,Red Granite Pictures,180
+Iron Man 3,PG-13,Action,2013,7.1,779000,Shane Black,Robert Downey Jr.,United States,200000000,1214811252,Marvel Studios,130
+Prisoners,R,Crime,2013,8.1,625000,Denis Villeneuve,Hugh Jackman,United States,46000000,122126687,Alcon Entertainment,153
+Thor: The Dark World,PG-13,Action,2013,6.8,618000,Alan Taylor,Chris Hemsworth,United States,170000000,644783140,Marvel Studios,112
+Gravity,PG-13,Drama,2013,7.7,784000,Alfonso Cuarón,Sandra Bullock,United Kingdom,100000000,723192705,Warner Bros.,91
+The Hobbit: The Desolation of Smaug,PG-13,Adventure,2013,7.8,615000,Peter Jackson,Ian McKellen,New Zealand,225000000,959007513,Metro-Goldwyn-Mayer (MGM),161
+Man of Steel,PG-13,Action,2013,7,721000,Zack Snyder,Henry Cavill,United States,225000000,668045518,Warner Bros.,143
+Her,R,Drama,2013,8,559000,Spike Jonze,Joaquin Phoenix,United States,23000000,48517427,Annapurna Pictures,126
+Frozen,PG,Animation,2013,7.4,585000,Chris Buck,Kristen Bell,United States,150000000,1281508100,Walt Disney Animation Studios,102
+Now You See Me,PG-13,Crime,2013,7.2,612000,Louis Leterrier,Jesse Eisenberg,United States,75000000,351723989,Summit Entertainment,115
+The Hunger Games: Catching Fire,PG-13,Action,2013,7.5,626000,Francis Lawrence,Jennifer Lawrence,United States,130000000,865011746,Color Force,146
+World War Z,PG-13,Action,2013,7,618000,Marc Forster,Brad Pitt,United States,190000000,540455876,Paramount Pictures,116
+12 Years a Slave,R,Biography,2013,8.1,657000,Steve McQueen,Chiwetel Ejiofor,United States,20000000,187733202,New Regency Productions,134
+Guardians of the Galaxy,PG-13,Action,2014,8,1100000,James Gunn,Chris Pratt,United States,170000000,773350147,Marvel Studios,121
+Interstellar,PG-13,Adventure,2014,8.6,1600000,Christopher Nolan,Matthew McConaughey,United States,165000000,701729206,Paramount Pictures,169
+John Wick,R,Action,2014,7.4,565000,Chad Stahelski,Keanu Reeves,United States,20000000,86081711,Summit Entertainment,101
+Edge of Tomorrow,PG-13,Action,2014,7.9,620000,Doug Liman,Tom Cruise,United States,178000000,370541256,Warner Bros.,113
+Gone Girl,R,Drama,2014,8.1,893000,David Fincher,Ben Affleck,United States,61000000,369330363,Twentieth Century Fox,149
+Captain America: The Winter Soldier,PG-13,Action,2014,7.7,764000,Anthony Russo,Chris Evans,United States,170000000,714421503,Marvel Entertainment,136
+The Grand Budapest Hotel,R,Adventure,2014,8.1,734000,Wes Anderson,Ralph Fiennes,United States,25000000,172945750,Fox Searchlight Pictures,99
+Whiplash,R,Drama,2014,8.5,749000,Damien Chazelle,Miles Teller,United States,3300000,49396747,Bold Films,106
+Kingsman: The Secret Service,R,Action,2014,7.7,607000,Matthew Vaughn,Colin Firth,United Kingdom,81000000,414351546,Twentieth Century Fox,129
+The Imitation Game,PG-13,Biography,2014,8,707000,Morten Tyldum,Benedict Cumberbatch,United Kingdom,14000000,233555708,Black Bear Pictures,114
+X-Men: Days of Future Past,PG-13,Action,2014,7.9,673000,Bryan Singer,Patrick Stewart,United States,200000000,746045700,Twentieth Century Fox,132
+Birdman or (The Unexpected Virtue of Ignorance),R,Comedy,2014,7.7,594000,Alejandro G. Iñárritu,Michael Keaton,United States,18000000,103215094,New Regency Productions,119
+Mad Max: Fury Road,R,Action,2015,8.1,912000,George Miller,Tom Hardy,Australia,150000000,375658750,Warner Bros.,120
+Avengers: Age of Ultron,PG-13,Action,2015,7.3,777000,Joss Whedon,Robert Downey Jr.,United States,250000000,1402809540,Marvel Studios,141
+The Hateful Eight,R,Crime,2015,7.8,539000,Quentin Tarantino,Samuel L. Jackson,United States,44000000,156480177,Visiona Romantica,168
+Ant-Man,PG-13,Action,2015,7.3,595000,Peyton Reed,Paul Rudd,United States,130000000,519311965,Gary Sanchez Productions,117
+Jurassic World,PG-13,Action,2015,7,593000,Colin Trevorrow,Chris Pratt,United States,150000000,1670516444,Universal Pictures,124
+The Revenant,R,Action,2015,8,729000,Alejandro G. Iñárritu,Leonardo DiCaprio,United States,135000000,532950503,New Regency Productions,156
+The Martian,PG-13,Adventure,2015,8,783000,Ridley Scott,Matt Damon,United Kingdom,108000000,630162448,Twentieth Century Fox,144
+Inside Out,PG,Animation,2015,8.1,641000,Pete Docter,Amy Poehler,United States,175000000,858848019,Pixar Animation Studios,95
+Star Wars: Episode VII - The Force Awakens,PG-13,Action,2015,7.8,876000,J.J. Abrams,Daisy Ridley,United States,245000000,2069521700,Lucasfilm,138
+Captain America: Civil War,PG-13,Action,2016,7.8,694000,Anthony Russo,Chris Evans,United States,250000000,1153337496,Marvel Studios,147
+Deadpool,R,Action,2016,8,932000,Tim Miller,Ryan Reynolds,United States,58000000,782836791,Twentieth Century Fox,108
+Doctor Strange,PG-13,Action,2016,7.5,628000,Scott Derrickson,Benedict Cumberbatch,United States,165000000,677796076,Marvel Studios,115
+Arrival,PG-13,Drama,2016,7.9,621000,Denis Villeneuve,Amy Adams,United States,47000000,203388186,Lava Bear Films,116
+La La Land,PG-13,Comedy,2016,8,527000,Damien Chazelle,Ryan Gosling,United States,30000000,448906865,Summit Entertainment,128
+Rogue One: A Star Wars Story,PG-13,Action,2016,7.8,572000,Gareth Edwards,Felicity Jones,United States,200000000,1056057720,Lucasfilm,133
+Thor: Ragnarok,PG-13,Action,2017,7.9,628000,Taika Waititi,Chris Hemsworth,United States,180000000,853983911,Walt Disney Pictures,130
+Spider-Man: Homecoming,PG-13,Action,2017,7.4,540000,Jon Watts,Tom Holland,United States,175000000,880166924,Columbia Pictures,133
+Guardians of the Galaxy Vol. 2,PG-13,Action,2017,7.6,596000,James Gunn,Chris Pratt,United States,200000000,863756051,Marvel Studios,136
+Get Out,R,Horror,2017,7.7,517000,Jordan Peele,Daniel Kaluuya,United States,4500000,255589157,Universal Pictures,104
+Dunkirk,PG-13,Action,2017,7.8,582000,Christopher Nolan,Fionn Whitehead,United Kingdom,100000000,527016307,Syncopy,106
+Logan,R,Action,2017,8.1,674000,James Mangold,Hugh Jackman,United States,97000000,619179950,Twentieth Century Fox,137
+Wonder Woman,PG-13,Action,2017,7.4,600000,Patty Jenkins,Gal Gadot,United States,149000000,822824522,Warner Bros.,141
+Star Wars: Episode VIII - The Last Jedi,PG-13,Action,2017,7,581000,Rian Johnson,Daisy Ridley,United States,317000000,1332698830,Walt Disney Pictures,152
+Avengers: Infinity War,PG-13,Action,2018,8.4,897000,Anthony Russo,Robert Downey Jr.,United States,321000000,2048359754,Marvel Studios,149
+Deadpool 2,R,Action,2018,7.7,505000,David Leitch,Ryan Reynolds,Canada,110000000,786470484,Twentieth Century Fox,119
+Black Panther,PG-13,Action,2018,7.3,661000,Ryan Coogler,Chadwick Boseman,United States,200000000,1347597973,Marvel Studios,134
+Once Upon a Time... In Hollywood,R,Comedy,2019,7.6,603000,Quentin Tarantino,Leonardo DiCaprio,United States,90000000,374565754,Columbia Pictures,161
+Avengers: Endgame,PG-13,Action,2019,8.4,903000,Anthony Russo,Robert Downey Jr.,United States,356000000,2797501328,Marvel Studios,181
+Joker,R,Crime,2019,8.4,1000000,Todd Phillips,Joaquin Phoenix,United States,55000000,1074427370,Warner Bros.,122
+Parasite,R,Comedy,2019,8.6,631000,Bong Joon Ho,Kang-ho Song,South Korea,11400000,258908054,Barunson E&A,132
+Knives Out,PG-13,Comedy,2019,7.9,505000,Rian Johnson,Daniel Craig,United States,40000000,311539397,Lionsgate,130
