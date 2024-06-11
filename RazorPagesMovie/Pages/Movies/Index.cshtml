@@ -13,13 +13,52 @@
 
 <form>
     <p>
-        Genre: <select asp-for="MovieGenre" asp-items="Model.Genres">
+        Title: <input type="text" asp-for="SearchString" />
+ 
+        Rating: 
+        <select asp-for="MovieRating" asp-items="Model.Ratings">
             <option value="">All</option>
         </select>
-        Title: <input type="text" asp-for="SearchString" />
+
+        Genre: 
+        <select asp-for="MovieGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        Min Release Year:
+        <input type="range" id="minYear" asp-for="MovieMinYear" min="@Model.Years.Min()" max="@Model.Years.Max()" oninput="updateRange()">
+        <span id="minYearValue">@Model.MovieMinYear</span>
+
+        Max Release Year:
+        <input type="range" id="maxYear" asp-for="MovieMaxYear" min="@Model.Years.Min()" max="@Model.Years.Max()" oninput="updateRange()">
+        <span id="maxYearValue">@Model.MovieMaxYear</span>
+
+        Country:
+        <select asp-for="MovieCountry" asp-items="Model.Countries">
+            <option value="">All</option>
+        </select>
+        
         <input type="submit" value="Filter" />
     </p>
 </form>
+
+<script>
+    function updateRange() {
+        var minYear = document.getElementById('minYear');
+        var maxYear = document.getElementById('maxYear');
+        var minYearValue = document.getElementById('minYearValue');
+        var maxYearValue = document.getElementById('maxYearValue');
+
+        // Ensure maxYear is always greater than or equal to minYear
+        if (parseInt(maxYear.value) < parseInt(minYear.value)) {
+            maxYear.value = minYear.value;
+        }
+
+        // Update the display values
+        minYearValue.textContent = minYear.value;
+        maxYearValue.textContent = maxYear.value;
+    }
+</script>
 
 <table class="table">
     <thead>
