@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.form-row {
+    display: flex;
+    justify-content: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Optional: Add spacing between each label-input pair */
+    margin-inline-end: 20px;
+}

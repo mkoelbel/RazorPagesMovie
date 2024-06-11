@@ -13,30 +13,61 @@
 
 <form>
     <p>
-        Title: <input type="text" asp-for="SearchString" />
- 
-        Rating: 
-        <select asp-for="MovieRating" asp-items="Model.Ratings">
-            <option value="">All</option>
-        </select>
+        <div class="form-row">
+            <div class="form-group">
+                Title:
+                <input type="text" asp-for="SearchString" />
+            </div>
 
-        Genre: 
-        <select asp-for="MovieGenre" asp-items="Model.Genres">
-            <option value="">All</option>
-        </select>
+            <div class="form-group">
+                Rating:
+                <select asp-for="MovieRating" asp-items="Model.Ratings">
+                    <option value="">All</option>
+                </select>
+            </div>
 
-        Min Release Year:
-        <input type="range" id="minYear" asp-for="MovieMinYear" min="@Model.Years.Min()" max="@Model.Years.Max()" oninput="updateRange()">
-        <span id="minYearValue">@Model.MovieMinYear</span>
+            <div class="form-group">
+                Genre:
+                <select asp-for="MovieGenre" asp-items="Model.Genres">
+                    <option value="">All</option>
+                </select>
+            </div>
 
-        Max Release Year:
-        <input type="range" id="maxYear" asp-for="MovieMaxYear" min="@Model.Years.Min()" max="@Model.Years.Max()" oninput="updateRange()">
-        <span id="maxYearValue">@Model.MovieMaxYear</span>
+            <div class="form-group">
+                Min Release Year:
+                <input 
+                    type="range" 
+                    id="minYear" 
+                    asp-for="MovieMinYear" 
+                    min="@Model.Years.Min()" 
+                    max="@Model.Years.Max()" 
+                    value="@Model.Years.Min()"
+                    oninput="updateRange()"
+                >
+                <span id="minYearValue">@Model.MovieMinYear</span>
+            </div>
 
-        Country:
-        <select asp-for="MovieCountry" asp-items="Model.Countries">
-            <option value="">All</option>
-        </select>
+            <div class="form-group">
+                Max Release Year:
+                <input 
+                    type="range" 
+                    id="maxYear" 
+                    asp-for="MovieMaxYear" 
+                    min="@Model.Years.Min()" 
+                    max="@Model.Years.Max()" 
+                    value="@Model.Years.Max()" 
+                    oninput="updateRange()"
+                >
+                <span id="maxYearValue">@Model.MovieMaxYear</span>
+            </div>
+
+            <div class="form-group">
+                Country:
+                <select asp-for="MovieCountry" asp-items="Model.Countries">
+                    <option value="">All</option>
+                </select>
+            </div>
+        </div>
         
         <input type="submit" value="Filter" />
     </p>
