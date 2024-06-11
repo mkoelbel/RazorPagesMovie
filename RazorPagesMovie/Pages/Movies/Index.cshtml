@@ -39,7 +39,6 @@
                     asp-for="SelectedMinYear"
                     min="@Model.AllYears.Min()"
                     max="@Model.AllYears.Max()"
-                    value="@Model.AllYears.Min()"
                     oninput="updateRange()"
                 >
                 <span id="minYearValue">@Model.SelectedMinYear</span>
@@ -53,7 +52,6 @@
                     asp-for="SelectedMaxYear"
                     min="@Model.AllYears.Min()"
                     max="@Model.AllYears.Max()"
-                    value="@Model.AllYears.Max()"
                     oninput="updateRange()"
                 >
                 <span id="maxYearValue">@Model.SelectedMaxYear</span>
