@@ -55,59 +55,65 @@ namespace RazorPagesMovie.Pages.Movies
         // button is pressed on Index page), we look for OnPost() here, don't find one, so default to OnGet().
         public async Task OnGetAsync()
         {
-            IQueryable<string> ratingQuery = from m in _context.Movie // LINQ query
-                                             orderby m.Rating
-                                             select m.Rating;
-            AllRatings = new SelectList(await ratingQuery.Distinct().ToListAsync());
+            // Get lists of values to populate the filter options for the various fields
+            AllRatings = new SelectList(await _context.Movie
+                                        .Select(m => m.Rating)
+                                        .Distinct()
+                                        .OrderBy(rating => rating)
+                                        .ToListAsync());
 
-            IQueryable<string> genreQuery = from m in _context.Movie
-                                            orderby m.Genre
-                                            select m.Genre;
-            AllGenres = new SelectList(await genreQuery.Distinct().ToListAsync());
+            AllGenres = new SelectList(await _context.Movie
+                                        .Select(m => m.Genre)
+                                        .Distinct()
+                                        .OrderBy(genre => genre)
+                                        .ToListAsync());
 
-            IQueryable<int> yearsQuery = from m in _context.Movie
-                                         orderby m.Year
-                                         select m.Year;
-            AllYears = new List<int>(await yearsQuery.Distinct().ToListAsync());
+            AllYears = new List<int>(await _context.Movie
+                                    .Select(m => m.Year)
+                                    .Distinct()
+                                    .OrderBy(year => year)
+                                    .ToListAsync());
 
-            IQueryable<string> countryQuery = from m in _context.Movie
-                                            orderby m.Country
-                                            select m.Country;
-            AllCountries = new SelectList(await countryQuery.Distinct().ToListAsync());
+            AllCountries = new SelectList(await _context.Movie
+                                        .Select(m => m.Country)
+                                        .Distinct()
+                                        .OrderBy(country => country)
+                                        .ToListAsync());
 
-            var movies = from m in _context.Movie // LINQ query. Defined here, but not yet executed.
-                         select m;
+            // Get list of movies, filtered on the user inputs
+            var movies = _context.Movie.Select(m => m); // LINQ, not executed yet
+
             if (!string.IsNullOrEmpty(TitleSearchString))
             {
-                movies = movies.Where(s => s.Title.Contains(TitleSearchString)); // LINQ query still not yet executed
+                movies = movies.Where(m => m.Title.Contains(TitleSearchString)); // LINQ, still not executed yet
             }
 
             if (!string.IsNullOrEmpty(SelectedRating))
             {
-                movies = movies.Where(x => x.Rating == SelectedRating);
+                movies = movies.Where(m => m.Rating == SelectedRating);
             }
 
             if (!string.IsNullOrEmpty(SelectedGenre))
             {
-                movies = movies.Where(x => x.Genre == SelectedGenre);
+                movies = movies.Where(m => m.Genre == SelectedGenre);
             }
 
             if (SelectedMinYear is not null & SelectedMinYear != 0)
             {
-                movies = movies.Where(x => x.Year >= SelectedMinYear);
+                movies = movies.Where(m => m.Year >= SelectedMinYear);
             }
 
             if (SelectedMaxYear is not null & SelectedMaxYear != 0)
             {
-                movies = movies.Where(x => x.Year <= SelectedMaxYear);
+                movies = movies.Where(m => m.Year <= SelectedMaxYear);
             }
 
             if (!string.IsNullOrEmpty(SelectedCountry))
             {
-                movies = movies.Where(x => x.Country == SelectedCountry);
+                movies = movies.Where(m => m.Country == SelectedCountry);
             }
 
-            Movie = await movies.ToListAsync(); // Above LINQ is executed here, since we run ToListAsync() on it
+            Movie = await movies.ToListAsync(); // LINQ executed here, since we run ToListAsync() on it
         }
     }
 }
