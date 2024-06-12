@@ -1,0 +1,53 @@
+﻿# Ignore build and publish folders
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and publish artifacts
+*.dbmdl
+*.log
+*.tlog
+*.pdb
+*.cache
+*.csproj.FileListAbsolute.txt
+TestResults/
+Generated Files/
+
+# Packages and dependencies
+packages/
+node_modules/
+bower_components/
+jspm_packages/
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+logs/
+*.temp
+tmp/
+temp/
+*.swp
+*.bak
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider
+.idea/
+.idea/*
+
+# Mac
+*.DS_Store
