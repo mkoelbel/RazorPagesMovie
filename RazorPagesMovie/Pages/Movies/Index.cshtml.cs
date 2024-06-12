@@ -57,28 +57,28 @@ namespace RazorPagesMovie.Pages.Movies
         {
             // Get lists of values to populate the filter options for the various fields
             AllRatings = new SelectList(await _context.Movie
-                                        .Select(m => m.Rating)
-                                        .Distinct()
-                                        .OrderBy(rating => rating)
-                                        .ToListAsync());
+                .Select(m => m.Rating)
+                .Distinct()
+                .OrderBy(rating => rating)
+                .ToListAsync());
 
             AllGenres = new SelectList(await _context.Movie
-                                        .Select(m => m.Genre)
-                                        .Distinct()
-                                        .OrderBy(genre => genre)
-                                        .ToListAsync());
+                .Select(m => m.Genre)
+                .Distinct()
+                .OrderBy(genre => genre)
+                .ToListAsync());
 
             AllYears = new List<int>(await _context.Movie
-                                    .Select(m => m.Year)
-                                    .Distinct()
-                                    .OrderBy(year => year)
-                                    .ToListAsync());
+                .Select(m => m.Year)
+                .Distinct()
+                .OrderBy(year => year)
+                .ToListAsync());
 
             AllCountries = new SelectList(await _context.Movie
-                                        .Select(m => m.Country)
-                                        .Distinct()
-                                        .OrderBy(country => country)
-                                        .ToListAsync());
+                .Select(m => m.Country)
+                .Distinct()
+                .OrderBy(country => country)
+                .ToListAsync());
 
             // Get list of movies, filtered on the user inputs
             var movies = _context.Movie.Select(m => m); // LINQ, not executed yet
