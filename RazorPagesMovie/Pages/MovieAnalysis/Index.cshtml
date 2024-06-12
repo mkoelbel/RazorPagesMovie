@@ -1,15 +1,74 @@
 ﻿@page
+@using RazorPagesMovie.Models
 @model RazorPagesMovie.Pages.MovieAnalysis.IndexModel
 
 @{
     ViewData["Title"] = "Movie Graphs";
 }
 
-<canvas id="genreChart" width="400" height="200"></canvas>
+<canvas id="movieCountsByRatingGraph" width="800" height="400"></canvas>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-    var ctx = document.getElementById('genreChart').getContext('2d');
+    var ctx = document.getElementById('movieCountsByRatingGraph').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Json.Serialize(Model.AllRatings)),
+            datasets: [{
+                label: 'Number of Movies',
+                data: @Html.Raw(Json.Serialize(Model.MovieCountsByRating)),
+                backgroundColor: 'rgba(0, 0, 128, 0.5)', // Bar color
+                borderColor: 'rgba(0, 0, 128, 1)', // Border color
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Movie Counts by Rating',
+                    font: {
+                        size: 24
+                    }
+                },
+                legend: {
+                    display: true,
+                    position: 'bottom'
+                }
+            },
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Ratings',
+                        font: {
+                            size: 18
+                        }
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Number of Movies',
+                        font: {
+                            size: 18
+                        }
+                    },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+
+<canvas id="movieCountsByGenreGraph" width="800" height="400"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('movieCountsByGenreGraph').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
@@ -23,13 +82,100 @@
             }]
         },
         options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Movie Counts by Genre',
+                    font: {
+                        size: 24
                     }
-                }]
+                },
+                legend: {
+                    display: true,
+                    position: 'bottom'
+                }
+            },
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Genres',
+                        font: {
+                            size: 18
+                        }
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Number of Movies',
+                        font: {
+                            size: 18
+                        }
+                    },
+                    beginAtZero: true
+                }
             }
         }
     });
 </script>
+
+
+<canvas id="movieCountsByCountryGraph" width="800" height="400"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('movieCountsByCountryGraph').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Json.Serialize(Model.AllCountries)),
+            datasets: [{
+                label: 'Number of Movies',
+                data: @Html.Raw(Json.Serialize(Model.MovieCountsByCountry)),
+                backgroundColor: 'rgba(0, 0, 128, 0.5)', // Bar color
+                borderColor: 'rgba(0, 0, 128, 1)', // Border color
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Movie Counts by Country',
+                    font: {
+                        size: 24
+                    }
+                },
+                legend: {
+                    display: true,
+                    position: 'bottom'
+                }
+            },
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Countries',
+                        font: {
+                            size: 18
+                        }
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Number of Movies',
+                        font: {
+                            size: 18
+                        }
+                    },
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
